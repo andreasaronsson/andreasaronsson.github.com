@@ -20,8 +20,11 @@ degrees C anyway so I thought I might just let the CPU running at
 you all kinds of unforeseen problems. Indeed. First thing I noticed
 was that the system clock went way off. "Clock skew detected" when I
 compiled my programs. This because my /home is mounted over NFS, and
-the server isn't overclocked. A quick and dirty ``while true;do
-/etc/init.d/ntp-client restart;sleep 200;done`` in a screen made the
+the server isn't overclocked. A quick and dirty
+{% highlight bash %}
+while true;do /etc/init.d/ntp-client restart;sleep 200;done
+{% endhighlight %}
+in a screen made the
 annoyance go away that day. The problem persists of course. Next, the
 sound in amarok starts stuttering! It's like a hiccup with 2-3 seconds
 interval. Recompile of amarok, alsa-lib and xine-lib does not help. I
