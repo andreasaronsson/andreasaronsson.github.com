@@ -3,7 +3,6 @@ layout: post
 title: "Doubleclick links in terminal"
 ---
 
-{{ page.title }}
 ================
 
 For a very long while now, several years actually, I've been a bit annoyed by the behaviour of terminals under X when you doubleclick links. What the UI considers a word is selected. Selection 'starts' at the point that is doubleclicked and 'spreads' in each direction, stopping at a char it considers to be a word delimiter. A space is probably always considered a delimiter. Sometimes a '?' too, and often ',' as well. This has been very annoying for me as I spend quite alot of time in irc (irssi in a screen, its lovely in combination with bitlbee; icq, irc etcetc in the same screen.) and every now and then someone pastes an url which I want to doubleclick and then paste into my browser. Now the selection stops prematurely as it's not uncommon for a hyperlink to contain one of the characters that is in the word delimiter list. I've thought of this as a limitation to the system I use and, although annoyed, never gave it much thought. Maybe I've been to susceptible to propagandaists telling me gnu/linux is user-unfriendly.

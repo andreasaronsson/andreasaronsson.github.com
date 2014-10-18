@@ -3,7 +3,6 @@ layout: post
 title: "One thousand reads"
 ---
 
-{{ page.title }}
 ================
 
 Just noticed that for two of my posts, drupal reports 1000+ reads; 

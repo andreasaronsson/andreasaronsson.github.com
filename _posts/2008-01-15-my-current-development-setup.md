@@ -3,7 +3,6 @@ layout: post
 title: "My current development setup"
 ---
 
-{{ page.title }}
 ================
 
 Inspired by <a href="http://www.briancarper.net">Brian Carper</a> (programming in general) and <a href="http://farragut.flameeyes.is-a-geek.org">Diego Penettó</a> (C/C++), I started configuring a

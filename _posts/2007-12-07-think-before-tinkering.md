@@ -3,7 +3,6 @@ layout: post
 title: "Think before tinkering"
 ---
 
-{{ page.title }}
 ================
 
 It was too obvious for me this time perhaps. 

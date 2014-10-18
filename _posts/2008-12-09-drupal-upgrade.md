@@ -3,7 +3,6 @@ layout: post
 title: "Drupal upgrade"
 ---
 
-{{ page.title }}
 ================
 
 First post after upgrade =)

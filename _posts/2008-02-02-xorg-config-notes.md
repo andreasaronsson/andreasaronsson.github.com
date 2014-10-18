@@ -3,7 +3,6 @@ layout: post
 title: "Xorg config notes"
 ---
 
-{{ page.title }}
 ================
 
 Just got myself a "SyncMaster 245B". Samsung FTW! This beauty is capable of 1920x1200 wide screen resolution. While I was at it, I switched from VGA to DVI cable too. While configuring I made some interesting notes; 

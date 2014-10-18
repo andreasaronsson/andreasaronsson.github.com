@@ -3,7 +3,6 @@ layout: post
 title: "OpenRC-time"
 ---
 
-{{ page.title }}
 ================
 
 Finally I made the leap. 

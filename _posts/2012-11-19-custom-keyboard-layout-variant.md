@@ -3,7 +3,6 @@ layout: post
 title: "Custom keyboard layout variant"
 ---
 
-{{ page.title }}
 ================
 
 Since I normally use a swedish keyboard layout, writing braces, parenthesis and brackets kind of sucks. I decided to remap them to

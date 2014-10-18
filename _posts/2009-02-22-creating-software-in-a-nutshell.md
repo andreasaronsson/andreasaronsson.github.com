@@ -3,7 +3,6 @@ layout: post
 title: "Creating software in a nutshell"
 ---
 
-{{ page.title }}
 ================
 
 It's been a bit too long since I did a post so I thought I'd post some thoughts about the creation

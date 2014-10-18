@@ -3,7 +3,6 @@ layout: post
 title: " How to make the best of your recruitment process"
 ---
 
-{{ page.title }}
 ================
 
 As my experiences from the IT-business and the professional life in general grow in number and volume, certain observed behavioral patterns become increasingly salient. One is concerning the recruitment of new employees. Listen in, ponder and try to draw relevant conclusions pertaining to this particular subject:

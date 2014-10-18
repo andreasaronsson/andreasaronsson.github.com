@@ -3,7 +3,6 @@ layout: post
 title: "Gentoopia"
 ---
 
-{{ page.title }}
 ================
 
 I just read <a href="http://tsunam.org/2008/02/22/activity/">tsunam's blogpost</a> and it sparked a thought. He's calling for more ideas for improving user relationships and quite neatly describes the Gentoo community through parallels to George Orwell's  <a href="http://imdb.com/title/tt0087803/">1984</a>. Now, as the topic says, I've always regarded it as a Gentoopia. A hither unknown phenomenon to most people perhaps(I like to think I just invented it) but it's pretty much like a <a href="http://en.wikipedia.org/wiki/Cockaigne">cockaigne</a> where knowledge is really abundant and you don't have to work too much to get it and you have loads and loads and loads of freedom.

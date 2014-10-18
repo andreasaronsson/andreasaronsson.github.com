@@ -3,7 +3,6 @@ layout: post
 title: "Gentoo automake - there can be only one"
 ---
 
-{{ page.title }}
 ================
 
 Just noticed that there is only one version. 

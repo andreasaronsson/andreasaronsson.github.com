@@ -3,7 +3,6 @@ layout: post
 title: "My Gentoo experience"
 ---
 
-{{ page.title }}
 ================
 
 When the computer geek in me grew up, I was excusively using Gentoo for all my needs. When I first started out learning about free software operating systems, I had used windows 98 for little more than playing Fallout and some other fun games.

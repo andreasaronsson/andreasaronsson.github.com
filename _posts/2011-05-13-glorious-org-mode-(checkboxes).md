@@ -3,7 +3,6 @@ layout: post
 title: "Glorious org mode (checkboxes)"
 ---
 
-{{ page.title }}
 ================
 
 Want a todo list with checkboxes?

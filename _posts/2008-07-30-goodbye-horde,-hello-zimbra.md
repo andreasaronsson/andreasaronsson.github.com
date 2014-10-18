@@ -3,7 +3,6 @@ layout: post
 title: "Goodbye horde, hello Zimbra"
 ---
 
-{{ page.title }}
 ================
 
 I finally gave up trying to keep my hordeinstallation alive. It's been alot of work installing and upgrading the package and every time I've failed to retain my data. I was recommended <a href="http://www.zimbra.com/">Zimbra</a> by a friend. It turns out it's a complete suite with mta, imap, spam- and virusscanner. This meant that I'd have to give up my carefully configured mail services. After bracing myself for a number of days, I got to it.

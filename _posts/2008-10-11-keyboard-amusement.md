@@ -3,7 +3,6 @@ layout: post
 title: "Keyboard amusement"
 ---
 
-{{ page.title }}
 ================
 
 When you grow up with Gentoo, you mostly only ever need to use the ``loadkeys`` command in the console. This led me to believe that there only existed one command to change the layout you're currently using. Now I know better (like five years or so after learning about loadkeys...): ``loadkeys`` are for console only. ``setxkbmap`` is what you use for switching in X. You'll see below what finally made this obvious to me, or rather what I was doing when I realized it.

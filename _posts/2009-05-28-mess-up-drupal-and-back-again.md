@@ -3,7 +3,6 @@ layout: post
 title: "Mess up drupal and back again"
 ---
 
-{{ page.title }}
 ================
 
 Sometime when I was updating drupal from 6.10 to 6.11 I thought I was going to be clever and

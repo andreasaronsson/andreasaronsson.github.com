@@ -3,7 +3,6 @@ layout: post
 title: "Decisions and investments"
 ---
 
-{{ page.title }}
 ================
 
 Through the years I have met a number of colleagues with leadership tasks and managers. More often

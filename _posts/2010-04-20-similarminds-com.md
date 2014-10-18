@@ -3,7 +3,6 @@ layout: post
 title: "http://www.similarminds.com"
 ---
 
-{{ page.title }}
 ================
 
 Main type 

@@ -3,7 +3,6 @@ layout: post
 title: "Maven bash-completion entry on Gentoo"
 ---
 
-{{ page.title }}
 ================
 
 Put the simple file in `/usr/share/bash-completion` with the ones I use most.

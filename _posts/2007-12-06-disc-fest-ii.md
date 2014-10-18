@@ -3,7 +3,6 @@ layout: post
 title: "Disc fest II"
 ---
 
-{{ page.title }}
 ================
 
 Finally had time to finish all my data migrations with the new discs. 
