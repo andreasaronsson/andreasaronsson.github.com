@@ -7,7 +7,7 @@ Put the simple file in `/usr/share/bash-completion` with the ones I use most.
 
 
 
-
+{% highlight bash %}
         #!/bin/bash
         _m2_make_goals()
         {
@@ -32,7 +32,7 @@ Put the simple file in `/usr/share/bash-completion` with the ones I use most.
             COMPREPLY=($(compgen -W "${goals}" ${cur} | sed 's/\\\\//g') )
         }
         complete -F _m2_complete -o filenames mvn
-
+{% endhighlight %}
 
 
 
