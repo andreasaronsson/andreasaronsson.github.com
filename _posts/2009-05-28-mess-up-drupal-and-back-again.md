@@ -22,7 +22,8 @@ that truncating the cache tables couldn't hurt so I did that and then
 wrote a small routine to replace the references to not include the
 ``$WEBROOT/sites/all/modules/drupal-6.10``:
 
-</p><pre class="example">
+{% highlight php linenos %}
+
 <?php
 
 $safe = true;
@@ -81,8 +82,15 @@ function exec_sql($query, $safe) {
 }
 
 ?>
-</pre>
+{% endhighlight %} 
 
-Still no cigar tough. The admin interface tells me that there are updates available. Using the database update script (update.php) puts me back to where I started. So off I go to examine that script too. I notice that it's using the POST variable to set some values that has to do with module versions. Intriguing. Next thing to try is to clear the browser cache, run the php script again and voila´. Now it's looking good. I had to run the update.php again and it didn't mess stuff up anymore either. 
-NOTE: To make the script 'bite', set "$safe = false" at the top of it. Use at own risk ofcos =). 
+Still no cigar tough. The admin interface tells me that there are
+updates available. Using the database update script (update.php) puts
+me back to where I started. So off I go to examine that script too. I
+notice that it's using the POST variable to set some values that has
+to do with module versions. Intriguing. Next thing to try is to clear
+the browser cache, run the php script again and voila´. Now it's
+looking good. I had to run the update.php again and it didn't mess
+stuff up anymore either.  NOTE: To make the script 'bite', set "$safe
+= false" at the top of it. Use at own risk ofcos =).
 
