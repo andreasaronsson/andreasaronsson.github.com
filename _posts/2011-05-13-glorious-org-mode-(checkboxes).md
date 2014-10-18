@@ -3,8 +3,6 @@ layout: post
 title: "Glorious org mode (checkboxes)"
 ---
 
-================
-
 Want a todo list with checkboxes?
 
 First make a new heading with the usual Alt+Enter

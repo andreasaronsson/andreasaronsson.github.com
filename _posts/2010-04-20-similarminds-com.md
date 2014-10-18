@@ -3,8 +3,6 @@ layout: post
 title: "http://www.similarminds.com"
 ---
 
-================
-
 Main type 
 <img src="http://images.similarminds.com/8.gif"></img>
 

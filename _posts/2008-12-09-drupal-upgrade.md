@@ -3,8 +3,6 @@ layout: post
 title: "Drupal upgrade"
 ---
 
-================
-
 First post after upgrade =)
 Just upgraded from 5.12 to 6.6
 In short (NOTE! not a proper instruction just a debrief); 

@@ -3,8 +3,6 @@ layout: post
 title: "OpenRC-time"
 ---
 
-================
-
 Finally I made the leap. 
 Used the stopwatch to get the boot time from BIOS POST to login screen: 1:02.4
 Added 

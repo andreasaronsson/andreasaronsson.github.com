@@ -3,8 +3,6 @@ layout: post
 title: "Gentoo automake - there can be only one"
 ---
 
-================
-
 Just noticed that there is only one version. 
 
 

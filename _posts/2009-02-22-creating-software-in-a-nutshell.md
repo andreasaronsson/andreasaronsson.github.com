@@ -3,8 +3,6 @@ layout: post
 title: "Creating software in a nutshell"
 ---
 
-================
-
 It's been a bit too long since I did a post so I thought I'd post some thoughts about the creation
 of software and cooperation in a small group with tools we're using like UML, design patterns
 etc. I'm assuming that a sufficiently thorough analysis has been made and that the group comprises

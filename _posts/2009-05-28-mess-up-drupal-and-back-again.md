@@ -3,8 +3,6 @@ layout: post
 title: "Mess up drupal and back again"
 ---
 
-================
-
 Sometime when I was updating drupal from 6.10 to 6.11 I thought I was going to be clever and
 update as soon at the core module was available upstream. Not to wait until it reached portage. I
 downloaded it and placed it in ``$WEBROOT/sites/all/modules`` and updated to that version of the core module. 

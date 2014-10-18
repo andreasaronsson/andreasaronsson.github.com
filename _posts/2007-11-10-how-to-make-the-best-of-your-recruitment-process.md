@@ -3,8 +3,6 @@ layout: post
 title: " How to make the best of your recruitment process"
 ---
 
-================
-
 As my experiences from the IT-business and the professional life in general grow in number and volume, certain observed behavioral patterns become increasingly salient. One is concerning the recruitment of new employees. Listen in, ponder and try to draw relevant conclusions pertaining to this particular subject:
 <cite>
 The right people have the right innate abilities and character traits, not necessarily the specific knowledge and skills. For example, look for work ethic, dedication, and problem-solving ability, not javascript skills and knowledge of C#. Be less inclined to look for factors that have a high impact during the first few weeks of employment, but rather look for potential in the intermediate to long term. Because, if you are to concerned with the immediate future, you're looking for a consultant, not an employee.

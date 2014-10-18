@@ -3,8 +3,6 @@ layout: post
 title: "Decisions and investments"
 ---
 
-================
-
 Through the years I have met a number of colleagues with leadership tasks and managers. More often
 than not I've been left wondering how on earth they managed to trick their way into that position or
 fooled themselves that they are fit for the task for that matter. 

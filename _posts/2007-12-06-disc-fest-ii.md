@@ -3,8 +3,6 @@ layout: post
 title: "Disc fest II"
 ---
 
-================
-
 Finally had time to finish all my data migrations with the new discs. 
 
 The original setup was (tip: use ``smartctl -i /dev/sdX`` to get the disc info): 

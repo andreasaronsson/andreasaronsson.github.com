@@ -3,8 +3,6 @@ layout: post
 title: "Pop goes the drive..."
 ---
 
-================
-
 For about a year now I have had a very annoying problem with my file server. One of the two Seagate drives simply disappeared from time to time. It was never the same one and I couldn't tell what pattern the disappearances followed. The system log looked something like:
 
 <pre>

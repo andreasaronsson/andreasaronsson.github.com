@@ -3,8 +3,6 @@ layout: post
 title: "Think before tinkering"
 ---
 
-================
-
 It was too obvious for me this time perhaps. 
 I simply forgot to change grub's arguments from the disc to the RAID1 device. 
 Now I can continue to expand my logical volume across both partitions and add the remaining root partition to the RAID as well. 

@@ -3,8 +3,6 @@ layout: post
 title: "My Gentoo experience"
 ---
 
-================
-
 When the computer geek in me grew up, I was excusively using Gentoo for all my needs. When I first started out learning about free software operating systems, I had used windows 98 for little more than playing Fallout and some other fun games.
 
 In my early days (in like 2002, which is not very long ago I admit) as a GNU/Linux zealot I was installing from a minimal CD and going from stage-1 tarballs and working my way up. Wasn't very exciting watching glibc compile on a PII 400hz.
