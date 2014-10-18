@@ -29,25 +29,25 @@ before the X server starts. Here is how:
 
 add the following:
 
-<pre>
-partial alphanumeric_keys
-xkb_symbols "se_aron" {
-    name[Group1]="Swedish (aron)";
-    include "se(basic)"
-    key <AE07>  { [         7,          slash                        ]  };
-    key <AE08>  { [         8                                        ]  };
-    key <AE09>  { [         9                                        ]  };
-    key <AE10>  { [         0,          equal                        ]  };
-    key <AD01>  { [         q,          Q,      braceleft            ]  };
-    key <AD02>  { [         w,          W,      bracketleft          ]  };
-    key <AD03>  { [         e,          E,      bracketright         ]  };
-    key <AD04>  { [         r,          R,      braceright           ]  };
-    key <AC01>  { [         a,          A,      parenleft            ]  };
-    key <AC02>  { [         s,          S,      parenright           ]  };
-    include "kpdl(comma)"
-    include "level3(ralt_switch)"
-};
-</pre>
+
+    partial alphanumeric_keys
+    xkb_symbols "se_aron" {
+        name[Group1]="Swedish (aron)";
+        include "se(basic)"
+        key <AE07>  { [         7,          slash                        ]  };
+        key <AE08>  { [         8                                        ]  };
+        key <AE09>  { [         9                                        ]  };
+        key <AE10>  { [         0,          equal                        ]  };
+        key <AD01>  { [         q,          Q,      braceleft            ]  };
+        key <AD02>  { [         w,          W,      bracketleft          ]  };
+        key <AD03>  { [         e,          E,      bracketright         ]  };
+        key <AD04>  { [         r,          R,      braceright           ]  };
+        key <AC01>  { [         a,          A,      parenleft            ]  };
+        key <AC02>  { [         s,          S,      parenright           ]  };
+        include "kpdl(comma)"
+        include "level3(ralt_switch)"
+    };
+
 
 Found the codes <a href="http://hack.org/mc/images/hhkb-names.png">here</a>
 Now the definition exists, but it also needs to be added to a list that the systemsettings in kde can select from:
