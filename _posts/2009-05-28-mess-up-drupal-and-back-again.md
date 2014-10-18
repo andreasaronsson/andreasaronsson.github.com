@@ -3,13 +3,25 @@ layout: post
 title: "Mess up drupal and back again"
 ---
 
-Sometime when I was updating drupal from 6.10 to 6.11 I thought I was going to be clever and
-update as soon at the core module was available upstream. Not to wait until it reached portage. I
-downloaded it and placed it in ``$WEBROOT/sites/all/modules`` and updated to that version of the core module. 
-But thinking about it today I found it excessive and stupid to be doing manual updates =).  Better let webapp-config handle it again as before. So how do I go about that? Just updating with webapp-config did not suffice since the running installation still refers to the one I manually downloaded and the update script didn't help either. 
-After some searching in the database I found alot of references to my ``$WEBROOT/sites/all/modules/drupal-6.10``
-directory. Some of the references resided in the cache_* tables as well. 
-Well, I thought that truncating the cache tables couldn't hurt so I did that and then wrote a small routine to replace the references to not include the ``$WEBROOT/sites/all/modules/drupal-6.10``: 
+Sometime when I was updating drupal from 6.10 to 6.11 I thought I was
+going to be clever and update as soon at the core module was available
+upstream. Not to wait until it reached portage. I downloaded it and
+placed it in ``$WEBROOT/sites/all/modules`` and updated to that
+version of the core module.
+
+But thinking about it today I found it excessive and stupid to be
+doing manual updates =).  Better let webapp-config handle it again as
+before. So how do I go about that? Just updating with webapp-config
+did not suffice since the running installation still refers to the one
+I manually downloaded and the update script didn't help either.
+
+After some searching in the database I found alot of references to my
+``$WEBROOT/sites/all/modules/drupal-6.10`` directory. Some of the
+references resided in the cache_* tables as well.  Well, I thought
+that truncating the cache tables couldn't hurt so I did that and then
+wrote a small routine to replace the references to not include the
+``$WEBROOT/sites/all/modules/drupal-6.10``:
+
 </p><pre class="example">
 <?php
 
