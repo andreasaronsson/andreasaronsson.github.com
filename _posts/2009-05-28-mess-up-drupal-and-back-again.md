@@ -44,8 +44,6 @@ $row = 0;
 $i=1;
 while($row = mysql_fetch_array($menu_router_contents)) {
 
-/*      print_r($row); */
-
     echo "\nResult no ".$i.": ".$row['file'];
     $i++;
     $newvalue = str_replace('sites/all/modules/drupal-6.10/', '', $row['file']);
@@ -60,7 +58,6 @@ $system_contents = mysql_query($sql) or die ("Error fetching values from system"
 $row = 0;
 $i=1;
 while($row = mysql_fetch_array($system_contents)) {
-/*     print_r($row); */
 
     echo "\nResult no ".$i.": ".$row['filename'];
     $i++;
