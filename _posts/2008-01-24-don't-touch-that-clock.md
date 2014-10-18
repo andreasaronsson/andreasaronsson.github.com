@@ -21,7 +21,7 @@ you all kinds of unforeseen problems. Indeed. First thing I noticed
 was that the system clock went way off. "Clock skew detected" when I
 compiled my programs. This because my /home is mounted over NFS, and
 the server isn't overclocked. A quick and dirty
-{% highlight bash %}
+{% highlight sh %}
 while true;do /etc/init.d/ntp-client restart;sleep 200;done
 {% endhighlight %}
 in a screen made the
