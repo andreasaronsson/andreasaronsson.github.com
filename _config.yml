@@ -82,7 +82,8 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : disqus_rthmZaTRxA
+      short_name : andreasaronsson
+#      short_name : disqus_rthmZaTRxA
     # livefyre :
     #   site_id : 123
     # intensedebate :
