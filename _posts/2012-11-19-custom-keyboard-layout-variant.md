@@ -49,8 +49,10 @@ add the following:
     };
 
 
-Found the codes <a href="http://hack.org/mc/images/hhkb-names.png">here</a>
-Now the definition exists, but it also needs to be added to a list that the systemsettings in kde can select from:
+Found the codes <a
+href="http://hack.org/mc/images/hhkb-names.png">here</a> Now the
+definition exists, but it also needs to be added to a list that the
+systemsettings in kde can select from:
 
     /usr/share/X11/xkb/rules/base.lst
 
@@ -80,8 +82,10 @@ And, under the configitem with name 'se', add a variant like so:
       </configItem>
     </variant>
 
-Now, the next time you log on to a kde session (the X server needs to be restarted first) you will be able to select the custom variant. 
-Update: when using fluxbox the xmodmap works just fine. .Xmodmap follows below. I also moved slash to AltGr+d:
+Now, the next time you log on to a kde session (the X server needs to
+be restarted first) you will be able to select the custom variant.
+Update: when using fluxbox the xmodmap works just fine. .Xmodmap
+follows below. I also moved slash to AltGr+d:
 
     keycode   8 =
     keycode   9 = Escape NoSymbol Escape
