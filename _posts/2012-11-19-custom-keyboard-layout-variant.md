@@ -83,39 +83,16 @@ And, under the configitem with name 'se', add a variant like so:
 Now, the next time you log on to a kde session (the X server needs to be restarted first) you will be able to select the custom variant. 
 Update: when using fluxbox the xmodmap works just fine. .Xmodmap follows below. I also moved slash to AltGr+d:
 
-```keycode   8 =
-keycode   9 = Escape NoSymbol Escape
-keycode  10 = 1 exclam exclamdown onesuperior
-keycode  11 = 2 quotedbl 7 ampersand at twosuperior
-keycode  12 = 3 numbersign 5 percent sterling threesuperior
-keycode  13 = 4 currency 3 numbersign dollar onequarter
-keycode  14 = 5 percent 1 exclam EuroSign cent
-keycode  15 = 6 ampersand 9 parenleft yen fiveeighths dead_grave
-keycode  16 = 7
-keycode  17 = 8
-keycode  18 = 9
-keycode  19 = 0 equal
-keycode  20 = plus question 8 asterisk backslash questiondown
-keycode  21 = dead_acute dead_grave bracketright braceright plusminus notsign dead_tilde
-keycode  22 = BackSpace BackSpace BackSpace BackSpace
-keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
-keycode  24 = q Q slash question braceleft Greek_OMEGA
-keycode  25 = w W comma less bracketleft Lstroke
-keycode  26 = e E period greater bracketright cent dead_abovedot periodcentered
-keycode  27 = r R p P braceright registered
-keycode  28 = t T y Y thorn THORN
-keycode  29 = y Y f F leftarrow yen
-keycode  30 = u U g G downarrow uparrow
-keycode  31 = i I c C rightarrow idotless
-keycode  32 = o O r R oe OE
-keycode  33 = p P l L thorn THORN
-keycode  34 = aring Aring apostrophe quotedbl dead_diaeresis dead_abovering dead_acute dead_diaeresis
-keycode  35 = asciitilde asciicircum dead_circumflex dead_circumflex
-keycode  36 = Return NoSymbol Return
-keycode  37 = Control_L NoSymbol Control_L
-keycode  38 = a A a A parenleft
-keycode  39 = s S s S parenright
-keycode  40 = d D d D slash
-```
+    keycode   8 =
+    keycode   9 = Escape NoSymbol Escape
+    keycode  16 = 7
+    keycode  24 = q Q slash question braceleft Greek_OMEGA
+    keycode  25 = w W comma less bracketleft Lstroke
+    keycode  26 = e E period greater bracketright cent dead_abovedot periodcentered
+    keycode  27 = r R p P braceright registered
+    keycode  38 = a A a A parenleft
+    keycode  39 = s S s S parenright
+    keycode  40 = d D d D slash
+
 
 The rest is default. 
