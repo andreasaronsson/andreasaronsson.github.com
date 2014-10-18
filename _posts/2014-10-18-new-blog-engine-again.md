@@ -10,3 +10,7 @@ This time it is [Jekyll](http://jekyllrb.com/) from
 [Github](https://github.com) to which I have moved almost all of my
 private stuff now. Both wonderful and works more or less exactly as
 one would want.
+
+Ack. Just noticed the preformatted blocks are no good to copy paste
+from.
+
