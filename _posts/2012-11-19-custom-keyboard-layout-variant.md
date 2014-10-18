@@ -29,8 +29,8 @@ before the X server starts. Here is how:
 
 add the following:
 
-
-```partial alphanumeric_keys
+<pre>
+partial alphanumeric_keys
 xkb_symbols "se_aron" {
     name[Group1]="Swedish (aron)";
     include "se(basic)"
@@ -47,7 +47,7 @@ xkb_symbols "se_aron" {
     include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
-```
+</pre>
 
 Found the codes <a href="http://hack.org/mc/images/hhkb-names.png">here</a>
 Now the definition exists, but it also needs to be added to a list that the systemsettings in kde can select from:
