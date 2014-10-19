@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Drupal upgrade"
+category: sysadm
 ---
 
 First post after upgrade =)

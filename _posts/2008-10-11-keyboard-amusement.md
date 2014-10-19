@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Keyboard amusement"
+category: sysadm
 ---
 
 When you grow up with Gentoo, you mostly only ever need to use the

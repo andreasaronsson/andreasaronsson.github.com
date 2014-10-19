@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OpenRC-time"
+category: sysadm
 ---
 
 Finally I made the leap. 
@@ -8,7 +9,7 @@ Used the stopwatch to get the boot time from BIOS POST to login screen: 1:02.4
 Added 
 
 >sys-apps/openrc ~amd64
-sys-apps/baselayout ~amd64
+>sys-apps/baselayout ~amd64
 
 to ``/etc/portage/package.keywords``
 Emerged them and followed the guide: 
