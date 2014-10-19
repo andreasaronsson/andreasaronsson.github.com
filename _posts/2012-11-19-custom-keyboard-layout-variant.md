@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Custom keyboard layout variant"
+category: code
 ---
 
 Since I normally use a swedish keyboard layout, writing braces,

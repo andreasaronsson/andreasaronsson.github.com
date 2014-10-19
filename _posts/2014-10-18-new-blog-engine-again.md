@@ -2,7 +2,7 @@
 layout: post
 title: "New blog engine again."
 description: ""
-category: 
+category: general
 tags: []
 ---
 This time it is [Jekyll](http://jekyllrb.com/) from

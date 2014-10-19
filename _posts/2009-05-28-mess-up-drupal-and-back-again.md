@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mess up drupal and back again"
+category: sysadm
 ---
 
 Sometime when I was updating drupal from 6.10 to 6.11 I thought I was

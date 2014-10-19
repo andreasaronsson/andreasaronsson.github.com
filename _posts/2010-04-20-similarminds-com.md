@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "http://www.similarminds.com"
+category: general
 ---
 
 Main type 
@@ -9,4 +10,6 @@ Main type
 Variant
 <img src="http://images.similarminds.com/sxsosp.gif"></img>
 
-<a href="http://www.similarminds.com/embti.html">Take Free Enneagram Personality Test</a><a href="http://similarminds.com">personality tests by similarminds.com</a>
+<a href="http://www.similarminds.com/embti.html">Take Free Enneagram
+Personality Test</a><a href="http://similarminds.com">personality
+tests by similarminds.com</a>

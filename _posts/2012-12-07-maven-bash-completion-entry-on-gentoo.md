@@ -5,9 +5,7 @@ title: "Maven bash-completion entry on Gentoo"
 
 Put the simple file in `/usr/share/bash-completion` with the ones I use most.
 
-
-
-{% highlight bash %}
+{% highlight bash linenos %}
 #!/bin/bash
 _m2_make_goals()
 {
@@ -34,7 +32,6 @@ COMPREPLY=($(compgen -W "${goals}" ${cur} | sed 's/\\\\//g') )
 complete -F _m2_complete -o filenames mvn
 {% endhighlight %}
 
-
-
-And then the ``eselect bashcomp enable <filename>``
-Will be overwritten the next time the gentoo ebuild for bashcomp is updated or reinstalled. 
+And then the ``eselect bashcomp enable <filename>`` Will be
+overwritten the next time the gentoo ebuild for bashcomp is updated or
+reinstalled.
