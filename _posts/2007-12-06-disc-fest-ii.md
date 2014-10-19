@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Disc fest II"
+category: hardware
 ---
 
 Finally had time to finish all my data migrations with the new discs. 

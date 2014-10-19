@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Don't touch that clock!"
+category: sysadm
 ---
 
 Time goes by and sometimes gentoo hands you a new update to kde-base

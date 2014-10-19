@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Decisions and investments"
+category: general
 ---
 
 Through the years I have met a number of colleagues with leadership tasks and managers. More often

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Do you want someone to bark at?"
+category: general
 ---
 
 Some people, more often than not they are performing managerial tasks but that's by no means a rule, claim that software somehow gets better and more trustworthy because they can lift the phone, dial a number and bark at some person on the other end. Well, I can't honestly say I've bought that many copies of microsoft licenses but I have had the urge to bark more than once when dealing with their software. However, anyone honestly believing that my disappointments aired with them would in any way affect their next release? I do not. 

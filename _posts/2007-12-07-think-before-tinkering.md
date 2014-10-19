@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Think before tinkering"
+category: sysadm
 ---
 
 It was too obvious for me this time perhaps. 
