@@ -10,7 +10,7 @@ This time it is [Jekyll](http://jekyllrb.com/) from
 [Github](https://github.com) to which I have moved almost all of my
 private stuff now. Both wonderful and works more or less exactly as
 one would want. To create a new post it is as simple as ``rake post
-title="New blog engine again"` and then edit the created file with
+title="New blog engine again"`` and then edit the created file with
 emacs in markdown-mode. When done I call
 {% highlight bash %}
 git add.;git commit -m"Update site";git push
