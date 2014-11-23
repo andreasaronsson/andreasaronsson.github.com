@@ -3,7 +3,7 @@ layout: post
 title: "Learning Scala and functional thoughts."
 description: ""
 category: programming
-tags: java,scala
+tags: scala
 ---
 {% include JB/setup %}
 
