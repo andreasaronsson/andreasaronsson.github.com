@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Java to Scala first thoughts."
+title: "Learning Scala and functional thoughts."
 description: ""
 category: 
-tags: []
+tags: [programming]
 ---
 {% include JB/setup %}
 
