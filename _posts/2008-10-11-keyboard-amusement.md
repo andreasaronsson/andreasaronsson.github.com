@@ -4,10 +4,9 @@ title: "Keyboard amusement"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 When you grow up with Gentoo, you mostly only ever need to use the
-``loadkeys`` command in the console. This led me to believe that there
+`loadkeys` command in the console. This led me to believe that there
 only existed one command to change the layout you're currently
 using. Now I know better (like five years or so after learning about
 loadkeys...): ``loadkeys`` are for console only. ``setxkbmap`` is what
@@ -32,3 +31,5 @@ layout. This was I can always peek at it while I type. I'm probably
 going to make a dvorak-se one since it appears to have more appeal to
 a programmer like me with better placement of brackets as the primary
 treat (like the original dvorak).
+
+{% include share.html %}

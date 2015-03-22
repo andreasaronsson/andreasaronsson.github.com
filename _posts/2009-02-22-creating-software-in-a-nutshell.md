@@ -4,7 +4,6 @@ title: "Creating software in a nutshell"
 category: code
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 It's been a bit too long since I did a post so I thought I'd post some
 thoughts about the creation of software and cooperation in a small
@@ -46,3 +45,5 @@ discussion and not too heavy but still substantial enough to help.
 One caveat is that there's a bunch of assumptions about the devs in
 the group, that they do possess enough knowledge to be able to do
 OOA/D, test driven and UML.
+
+{% include share.html %}

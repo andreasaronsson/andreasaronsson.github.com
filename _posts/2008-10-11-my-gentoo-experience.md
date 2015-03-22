@@ -4,7 +4,6 @@ title: "My Gentoo experience"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 When the computer geek in me grew up, I was excusively using Gentoo
 for all my needs. When I first started out learning about free
@@ -30,3 +29,5 @@ possessing more knowledge or Gentoo maturing, but I guess it's a
 little of both.
 
 Gentoo - a tad too easy?
+
+{% include share.html %}

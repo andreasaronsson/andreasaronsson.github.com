@@ -4,7 +4,6 @@ title: "Don't extend"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 As I am nowadays using the keyworded gentoo-sources, I am already
 using the 2.6.29 kernel with promised updated ext4 stuff and some more
@@ -21,3 +20,5 @@ now booted with little devils peeking at me from the screen instead of
 penguins. I might have noticed a very slight speedup when starting
 programs too.  Ah, portage tells me it's time to go xorg-1.5. Now
 where did I put the bookmark for the upgrade guide...
+
+{% include share.html %}

@@ -6,7 +6,6 @@ category: programming
 tags: []
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Apparently, some companies make it more or less mandatory for their applicants to have one or more private projects that they are
 working on and being proud of. I have been one of those people that gets completely engulfed in work for my employer, at least for
@@ -21,3 +20,5 @@ blogging might help too I guess. At this time I plan to use github and [bintray]
 something better I will use a jenkins instance on my personal server for building. Already this looks significantly better compared
 to what I have at my workplace. As a project I plan to rewrite an old project I worked on during my days in the students commune
 that I inherited from previous students but this time in a functional language.
+
+{% include share.html %}

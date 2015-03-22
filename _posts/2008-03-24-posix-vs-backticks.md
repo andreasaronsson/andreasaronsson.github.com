@@ -4,7 +4,6 @@ title: "POSIX vs backticks"
 category: code
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 A couple of years ago, I was sifting through the <a target="_blank"
 href="http://linux.die.net/man/1/bash">manpage for bash.</a> I was at
@@ -42,3 +41,5 @@ The <a href="http://www.unix.org/single_unix_specification/">bible</a>
 as I would have thought of it apparantly has some shortcomings.  Now I
 have to ponder my weapon of choice for command substitution. As it
 wasn't enough with eclipse vs netbeans stalemate.
+
+{% include share.html %}

@@ -4,7 +4,6 @@ title: "Decisions and investments"
 category: general
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Through the years I have met a number of colleagues with leadership tasks and managers. More often
 than not I've been left wondering how on earth they managed to trick their way into that position or
@@ -43,3 +42,5 @@ tasks. This can of course be imposed due to extreme time shortage but generally 
 that you just don't cut it. More superficial signs to look for would be a tendency to bring  too little
 attention to details and too much focus on the short term effects of decisions (again intuitive and
 puts demands on your judgmental abilities). 
+
+{% include share.html %}

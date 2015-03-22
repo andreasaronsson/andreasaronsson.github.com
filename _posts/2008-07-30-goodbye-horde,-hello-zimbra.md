@@ -4,7 +4,6 @@ title: "Goodbye horde, hello Zimbra"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 I finally gave up trying to keep my hordeinstallation alive. It's been
 alot of work installing and upgrading the package and every time I've
@@ -22,3 +21,5 @@ it's working fine. In case I see a request of interest for it here I
 could update it. Let me know.  After adding postfix and changing port
 number for ssh and a couple of other tweaks it's just the way I want
 it. Lovely.
+
+{% include share.html %}

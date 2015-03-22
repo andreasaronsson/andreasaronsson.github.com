@@ -4,7 +4,6 @@ title: "Gentoo automake - there can be only one"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Just noticed that there is only one version. 
 
@@ -14,3 +13,5 @@ Just noticed that there is only one version.
 
 Can't remember when it was like this, if ever before. Progress, I
 guess :)
+
+{% include share.html %}

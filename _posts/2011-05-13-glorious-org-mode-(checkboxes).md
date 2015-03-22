@@ -4,7 +4,6 @@ title: "Glorious org mode (checkboxes)"
 category: code
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Want a todo list with checkboxes?
 
@@ -22,3 +21,5 @@ All lovely colorized. I love this stuff! Thank you thank you thank you
 to the org mode devs! 
 
 <a href="http://orgmode.org/" target="_blank">http://orgmode.org/</a>
+
+{% include share.html %}

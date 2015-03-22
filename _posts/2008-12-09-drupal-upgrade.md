@@ -4,7 +4,6 @@ title: "Drupal upgrade"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 First post after upgrade =)
 Just upgraded from 5.12 to 6.6
@@ -22,3 +21,5 @@ In short (NOTE! not a proper instruction just a debrief);
  * try to poke around as much as possible
 
 There was some quirks, some of the modules I failed to uninstall wasn't working and I got some duplicate menu entries but apart from that I think it's ok. 
+
+{% include share.html %}

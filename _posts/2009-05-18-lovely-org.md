@@ -4,7 +4,6 @@ title: "Lovely org-mode"
 category: code
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 The editor emacs continues to amaze me. For some time now I have been
 using emacs as a day-planner in the excellent <a
@@ -20,3 +19,5 @@ version at the time of this writing).  You can find a nice screencast
 also featured with <a
 href="http://www.youtube.com/watch?v=oJTwQvgfgMM">Google Tech
 Talk</a>.
+
+{% include share.html %}

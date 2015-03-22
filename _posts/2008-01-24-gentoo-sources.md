@@ -4,7 +4,6 @@ title: "Gentoo-sources"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 I have to say my impression is that the gentoo devs maintaining the
 kernel sources does a damn fine job. New versions appears in the three
@@ -47,3 +46,5 @@ more keen on gentoo.  <a
 href="http://www.reactivated.net/weblog/">dsd</a> really seems to 'get
 it'. The more the merrier and he certainly contributes in a positive
 manner.
+
+{% include share.html %}

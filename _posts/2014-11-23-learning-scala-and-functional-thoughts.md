@@ -6,7 +6,6 @@ category: programming
 tags: scala
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Incredibly enough it is more than two years ago now I took the [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course)
 Scala course at [Coursera](https://www.coursera.org/)
@@ -31,3 +30,5 @@ follows from putting all kinds of features into the language at a senseless pace
 [Paul Phillips](https://www.youtube.com/watch?v=TS1lpKBMkgg). I believe that Martin Odersky is spot on with his plans to
 [simplify the language in the coming years](http://www.scala-lang.org/news/roadmap-next). Today it feels a bit like a research
 experiment to me. 
+
+{% include share.html %}

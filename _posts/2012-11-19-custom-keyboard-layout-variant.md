@@ -4,7 +4,6 @@ title: "Custom keyboard layout variant"
 category: code
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Since I normally use a swedish keyboard layout, writing braces,
 parenthesis and brackets kind of sucks. I decided to remap them to
@@ -103,3 +102,5 @@ follows below. I also moved slash to AltGr+d:
 
 
 The rest is default. 
+
+{% include share.html %}

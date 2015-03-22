@@ -4,7 +4,6 @@ title: "Pop goes the drive..."
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 For about a year now I have had a very annoying problem with my file
 server. One of the two Seagate drives simply disappeared from time to
@@ -40,3 +39,5 @@ really has become my favourite ones over time.  According to the info
 I found this problem should reappear during load. Since I've done a
 resync of the raid, have a couple of full backup jobs run and a bunch
 of my pictures uploaded to it, it really seems rock stable now =).
+
+{% include share.html %}

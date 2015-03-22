@@ -6,7 +6,6 @@ category: general
 tags: []
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 This time it is [Jekyll](http://jekyllrb.com/) from
 [Jekyllbootstrap](http://jekyllbootstrap.com/) on
@@ -25,3 +24,4 @@ Ack. Just noticed the preformatted blocks are no good to copy paste
 from. I guess I can just use the code blocks without syntax
 highlighting. 
 
+{% include share.html %}

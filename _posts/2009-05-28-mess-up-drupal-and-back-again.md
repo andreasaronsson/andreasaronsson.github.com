@@ -4,7 +4,6 @@ title: "Mess up drupal and back again"
 category: sysadm
 ---
 {% include JB/setup %}
-{% include share.html %}
 
 Sometime when I was updating drupal from 6.10 to 6.11 I thought I was
 going to be clever and update as soon at the core module was available
@@ -94,3 +93,4 @@ looking good. I had to run the update.php again and it didn't mess
 stuff up anymore either.  NOTE: To make the script 'bite', set "$safe
 = false" at the top of it. Use at own risk ofcos =).
 
+{% include share.html %}
