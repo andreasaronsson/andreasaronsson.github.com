@@ -14,11 +14,11 @@ changes not requiring entering a password every time a release is created. It ap
 for this activity. Eventually I'll get around to asking my english speaking friends about this. Anyway, this requires you to have an
 `<scm>` element in your project description file. It must look like this:
 
-  <scm>
-    <connection>scm:git:git@github.com:username/projectname.git</connection>
-    <developerConnection>scm:git:git@github.com:username/projectname.git</developerConnection>
-    <url>https://github.com/username/projectname</url>
-  </scm>
+    <scm>
+      <connection>scm:git:git@github.com:username/projectname.git</connection>
+      <developerConnection>scm:git:git@github.com:username/projectname.git</developerConnection>
+      <url>https://github.com/username/projectname</url>
+    </scm>
 
 The data inside the elements is a colon separated (only the first two is significant for the plugin making up three partitions in
 all). The first two parts; `scm` and `git` tells it to use the [maven-scm-plugin](https://maven.apache.org/scm/maven-scm-plugin/)
