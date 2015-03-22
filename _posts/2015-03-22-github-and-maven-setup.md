@@ -32,7 +32,7 @@ about either missing repo or failure to authorize. The error messages led me to 
 I tried using `ssh://` and slash instead of colon etc.
 
 Another problem I encountered was when I tried to use the `release:prepare-with-pom` goal. I was then hit by
-(http://jira.codehaus.org/browse/MRELEASE-539).
+[MRELEASE-539](http://jira.codehaus.org/browse/MRELEASE-539).
 
 The future for maven-release-plugin is questionable. The approach has been [bemoaned](http://axelfontaine.com/blog/final-nail.html)
 and I do see there are merits to using an alternative approach like described especially since other, well working plugins are used
