@@ -129,8 +129,6 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  sharing :
-    provider : "custom"
     
   # Includes an icon in the footer for each user name you enter
   footer-links:
