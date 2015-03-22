@@ -2,6 +2,7 @@
 layout: post
 title: "Mess up drupal and back again"
 category: sysadm
+tags: Gentoo
 ---
 {% include JB/setup %}
 

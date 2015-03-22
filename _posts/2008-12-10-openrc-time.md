@@ -2,6 +2,7 @@
 layout: post
 title: "OpenRC-time"
 category: sysadm
+tags: [Gentoo, openrc]
 ---
 {% include JB/setup %}
 

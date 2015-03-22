@@ -2,7 +2,7 @@
 layout: post
 title: "My current development setup"
 category: code
-tags: programming
+tags: [programming, Eclipse, emacs, subversion]
 ---
 {% include JB/setup %}
 

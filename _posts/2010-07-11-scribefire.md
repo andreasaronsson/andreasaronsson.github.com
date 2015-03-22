@@ -2,6 +2,7 @@
 layout: post
 title: "ScribeFire"
 category: general
+tags: [blog, firefox]
 ---
 {% include JB/setup %}
 

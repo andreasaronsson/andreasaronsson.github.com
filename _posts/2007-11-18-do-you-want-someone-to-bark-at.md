@@ -2,6 +2,7 @@
 layout: post
 title: "Do you want someone to bark at?"
 category: general
+tags: [business, software]
 ---
 {% include JB/setup %}
 

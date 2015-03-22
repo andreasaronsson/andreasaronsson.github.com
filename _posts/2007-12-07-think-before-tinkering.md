@@ -2,6 +2,7 @@
 layout: post
 title: "Think before tinkering"
 category: sysadm
+tags: [grub, raid]
 ---
 {% include JB/setup %}
 

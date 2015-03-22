@@ -2,6 +2,7 @@
 layout: post
 title: "Glorious org mode (checkboxes)"
 category: code
+tags: [emacs, org-mode]
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gentoo-sources"
 category: sysadm
+tags: [linux, Gentoo]
 ---
 {% include JB/setup %}
 

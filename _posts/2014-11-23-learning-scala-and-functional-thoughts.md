@@ -19,7 +19,7 @@ has been improving since I participated.
 
 When I first saw the syntax I noticed the use of parenthesis instead of brackets as I was accustomed to in Java. My thought then was
 'why change that which is not broken'. After studying some more I realized that this was that it followed logically from the fact
-that 'everything is an object _and_ a function'. Another aha-moment for me was when I was writing tests for the code I has
+that 'everything is an object *and* a function'. Another aha-moment for me was when I was writing tests for the code I has
 written. I realized that the tests was really testing the things I was interested in testing. The amount of bolt-and-nut problems
 one has to solve when working with a language this elegant is minute compared to what I do in my regular work. Exceptions, nulls and
 mutating state even if only for external iteration keeps getting in my way. 

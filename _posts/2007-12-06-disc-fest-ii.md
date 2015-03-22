@@ -2,6 +2,7 @@
 layout: post
 title: "Disc fest II"
 category: hardware
+tags: [hardware, raid]
 ---
 {% include JB/setup %}
 

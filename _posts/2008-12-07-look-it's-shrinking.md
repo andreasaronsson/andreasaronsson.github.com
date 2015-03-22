@@ -2,6 +2,7 @@
 layout: post
 title: "Look! It's shrinking!"
 category: code
+tags: [Gentoo, complexity]
 ---
 {% include JB/setup %}
 

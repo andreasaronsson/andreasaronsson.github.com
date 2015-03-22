@@ -2,6 +2,7 @@
 layout: post
 title: "Gentoo automake - there can be only one"
 category: sysadm
+tags: Gentoo
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "From Gentoo to Arch"
 description: ""
 category: sysadm
-tags: linux
+tags: [linux, Gentoo]
 ---
 {% include JB/setup %}
 

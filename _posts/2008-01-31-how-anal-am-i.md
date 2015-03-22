@@ -2,6 +2,7 @@
 layout: post
 title: "How anal am I? "
 category: code
+tags: [typing, keyboard]
 ---
 {% include JB/setup %}
 

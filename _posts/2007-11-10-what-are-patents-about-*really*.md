@@ -2,6 +2,7 @@
 layout: post
 title: "What are patents about *really*?"
 category: general
+tags: patents
 ---
 {% include JB/setup %}
 

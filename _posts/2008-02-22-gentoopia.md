@@ -2,6 +2,7 @@
 layout: post
 title: "Gentoopia"
 category: sysadm
+tags: [Gentoo, collaboration]
 ---
 {% include JB/setup %}
 

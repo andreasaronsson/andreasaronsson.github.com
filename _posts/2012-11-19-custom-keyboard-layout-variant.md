@@ -2,6 +2,7 @@
 layout: post
 title: "Custom keyboard layout variant"
 category: code
+tags: [xorg, keyboard]
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Don't touch that clock!"
 category: sysadm
+tags: [hardware, Gentoo, cooling]
 ---
 {% include JB/setup %}
 

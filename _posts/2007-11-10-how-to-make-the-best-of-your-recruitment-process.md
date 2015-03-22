@@ -2,6 +2,7 @@
 layout: post
 title: "How to make the best of your recruitment process"
 category: general
+tags: [recruitment]
 ---
 {% include JB/setup %}
 

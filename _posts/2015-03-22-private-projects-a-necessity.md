@@ -3,7 +3,7 @@ layout: post
 title: "Private projects a necessity?"
 description: ""
 category: programming
-tags: []
+tags: [bintray, recruitment, work]
 ---
 {% include JB/setup %}
 
