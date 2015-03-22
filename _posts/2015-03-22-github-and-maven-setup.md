@@ -32,7 +32,7 @@ I tried using `ssh://` and slash instead of colon etc.
 Another problem I encountered was when I tried to use the `release:prepare-with-pom` goal. I was then hit by
 (http://jira.codehaus.org/browse/MRELEASE-539).
 
-The future for maven-release-plugin is questionable. The approach has been [lamented](http://axelfontaine.com/blog/final-nail.html)
+The future for maven-release-plugin is questionable. The approach has been [bemoaned](http://axelfontaine.com/blog/final-nail.html)
 and I do see there are merits to using an alternative approach like described especially since other, well working plugins are used
 in combination. It would probably be relatively easy to create a wrapper plugin to automate those tasks. Also, when Maven 4 arrives
 with continuous delivery support using maven-release-plugin looks even less fitting.
