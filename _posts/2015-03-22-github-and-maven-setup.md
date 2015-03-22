@@ -3,7 +3,7 @@ layout: post
 title: "Github and maven-release-plugin setup"
 description: ""
 category: programming
-tags: github maven maven-release-plugin maven-scm-plugin
+tags: [github maven maven-release-plugin maven-scm-plugin]
 ---
 {% include JB/setup %}
 
