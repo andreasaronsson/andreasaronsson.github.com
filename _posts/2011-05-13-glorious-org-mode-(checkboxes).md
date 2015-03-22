@@ -3,6 +3,8 @@ layout: post
 title: "Glorious org mode (checkboxes)"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Want a todo list with checkboxes?
 

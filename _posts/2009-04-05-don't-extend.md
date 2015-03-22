@@ -3,6 +3,8 @@ layout: post
 title: "Don't extend"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 As I am nowadays using the keyworded gentoo-sources, I am already
 using the 2.6.29 kernel with promised updated ext4 stuff and some more

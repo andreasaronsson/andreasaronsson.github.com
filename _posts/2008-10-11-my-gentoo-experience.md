@@ -3,6 +3,8 @@ layout: post
 title: "My Gentoo experience"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 When the computer geek in me grew up, I was excusively using Gentoo
 for all my needs. When I first started out learning about free

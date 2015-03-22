@@ -3,6 +3,8 @@ layout: post
 title: "Drupal upgrade"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 First post after upgrade =)
 Just upgraded from 5.12 to 6.6

@@ -6,6 +6,7 @@ category: programming
 tags: []
 ---
 {% include JB/setup %}
+{% include share.html %}
 
 Apparently, some companies make it more or less mandatory for their applicants to have one or more private projects that they are
 working on and being proud of. I have been one of those people that gets completely engulfed in work for my employer, at least for

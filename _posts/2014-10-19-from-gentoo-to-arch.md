@@ -6,6 +6,7 @@ category: sysadm
 tags: linux
 ---
 {% include JB/setup %}
+{% include share.html %}
 
 A while ago I came to realise that I spend way too much time updating
 my systems. Doing ``emerge --sync`` etc way too often, especially for

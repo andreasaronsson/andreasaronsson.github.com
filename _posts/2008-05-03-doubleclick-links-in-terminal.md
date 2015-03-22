@@ -3,6 +3,8 @@ layout: post
 title: "Doubleclick links in terminal"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 For a very long while now, several years actually, I've been a bit
 annoyed by the behaviour of terminals under X when you doubleclick

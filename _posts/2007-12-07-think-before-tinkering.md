@@ -3,6 +3,8 @@ layout: post
 title: "Think before tinkering"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 It was too obvious for me this time perhaps. 
 I simply forgot to change grub's arguments from the disc to the RAID1 device. 

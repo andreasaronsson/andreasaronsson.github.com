@@ -3,6 +3,8 @@ layout: post
 title: "My current development setup"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Inspired by <a href="http://www.briancarper.net">Brian Carper</a> (programming in general) and <a href="http://farragut.flameeyes.is-a-geek.org">Diego Penettó</a> (C/C++), I started configuring a
 setup to do some programming on a private project. I decided I'd go for <a href="http://www.eclipse.org">Eclipse</a>, <a href="http://subversion.tigris.org/">Subversion</a> and

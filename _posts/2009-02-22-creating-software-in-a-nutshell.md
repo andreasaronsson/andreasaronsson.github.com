@@ -3,6 +3,8 @@ layout: post
 title: "Creating software in a nutshell"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 It's been a bit too long since I did a post so I thought I'd post some
 thoughts about the creation of software and cooperation in a small

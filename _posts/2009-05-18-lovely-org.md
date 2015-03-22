@@ -3,6 +3,8 @@ layout: post
 title: "Lovely org-mode"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 The editor emacs continues to amaze me. For some time now I have been
 using emacs as a day-planner in the excellent <a

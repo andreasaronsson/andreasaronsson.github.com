@@ -3,6 +3,8 @@ layout: post
 title: "Disc fest II"
 category: hardware
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Finally had time to finish all my data migrations with the new discs. 
 

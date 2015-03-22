@@ -6,6 +6,7 @@ category: programming
 tags: [github, maven, maven-release-plugin, maven-scm-plugin]
 ---
 {% include JB/setup %}
+{% include share.html %}
 
 Assuming you have a [Github](http://github.com) account setup you can use the
 [maven-release-plugin](http://maven.apache.org/maven-release/maven-release-plugin/) to push the changes associated with a release to

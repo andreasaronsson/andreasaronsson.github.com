@@ -6,6 +6,7 @@ category: programming
 tags: scala
 ---
 {% include JB/setup %}
+{% include share.html %}
 
 Incredibly enough it is more than two years ago now I took the [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course)
 Scala course at [Coursera](https://www.coursera.org/)

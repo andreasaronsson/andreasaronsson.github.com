@@ -3,6 +3,8 @@ layout: post
 title: "Decisions and investments"
 category: general
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Through the years I have met a number of colleagues with leadership tasks and managers. More often
 than not I've been left wondering how on earth they managed to trick their way into that position or

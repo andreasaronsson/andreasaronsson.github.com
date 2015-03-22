@@ -3,6 +3,8 @@ layout: post
 title: "Gentoo-sources"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 I have to say my impression is that the gentoo devs maintaining the
 kernel sources does a damn fine job. New versions appears in the three

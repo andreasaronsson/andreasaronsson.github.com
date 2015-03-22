@@ -3,6 +3,8 @@ layout: post
 title: "Xorg config notes"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Just got myself a "SyncMaster 245B". Samsung FTW! This beauty is
 capable of 1920x1200 wide screen resolution. While I was at it, I

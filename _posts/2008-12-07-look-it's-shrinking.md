@@ -3,6 +3,8 @@ layout: post
 title: "Look! It's shrinking!"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 What I experience when I grasp a subject or when I discover that I've
 achieved some level of mastery at something, that's how I percieve

@@ -3,6 +3,8 @@ layout: post
 title: "Keyboard amusement"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 When you grow up with Gentoo, you mostly only ever need to use the
 ``loadkeys`` command in the console. This led me to believe that there

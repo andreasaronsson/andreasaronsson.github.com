@@ -3,6 +3,8 @@ layout: post
 title: "POSIX vs backticks"
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 A couple of years ago, I was sifting through the <a target="_blank"
 href="http://linux.die.net/man/1/bash">manpage for bash.</a> I was at

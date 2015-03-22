@@ -3,6 +3,8 @@ layout: post
 title: "Don't touch that clock!"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Time goes by and sometimes gentoo hands you a new update to kde-base
 as happened today and it's compile-time again. When I first began

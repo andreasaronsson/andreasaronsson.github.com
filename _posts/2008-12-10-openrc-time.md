@@ -3,6 +3,8 @@ layout: post
 title: "OpenRC-time"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Finally I made the leap. 
 Used the stopwatch to get the boot time from BIOS POST to login screen: 1:02.4

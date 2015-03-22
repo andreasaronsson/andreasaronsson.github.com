@@ -3,6 +3,8 @@ layout: post
 title: "Pop goes the drive..."
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 For about a year now I have had a very annoying problem with my file
 server. One of the two Seagate drives simply disappeared from time to

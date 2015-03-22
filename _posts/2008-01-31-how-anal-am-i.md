@@ -3,6 +3,8 @@ layout: post
 title: "How anal am I? "
 category: code
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 I just found myself asking me that question. Allright, I am a nerd and
 I'm fine with that. Allright, I'm very persistent about orderliness

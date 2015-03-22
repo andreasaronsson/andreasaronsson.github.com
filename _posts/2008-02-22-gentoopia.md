@@ -3,6 +3,8 @@ layout: post
 title: "Gentoopia"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 I just read <a href="http://tsunam.org/2008/02/22/activity/">tsunam's
 blogpost</a> and it sparked a thought. He's calling for more ideas for

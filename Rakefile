@@ -95,6 +95,7 @@ task :page do
     post.puts 'description: ""'
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    post.puts "{% include share.html %}"
   end
 end # task :page
 

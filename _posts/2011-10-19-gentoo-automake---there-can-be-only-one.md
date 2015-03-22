@@ -3,6 +3,8 @@ layout: post
 title: "Gentoo automake - there can be only one"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 Just noticed that there is only one version. 
 

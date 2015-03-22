@@ -3,6 +3,8 @@ layout: post
 title: "Goodbye horde, hello Zimbra"
 category: sysadm
 ---
+{% include JB/setup %}
+{% include share.html %}
 
 I finally gave up trying to keep my hordeinstallation alive. It's been
 alot of work installing and upgrading the package and every time I've
