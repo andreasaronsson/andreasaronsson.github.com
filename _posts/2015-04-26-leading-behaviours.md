@@ -54,3 +54,4 @@ being dissatisfied and tirelessly looking for ways to improve written and yet to
 will learn massive amount during a career. A good sign of maturity is where there is a complete objectiveness about all code,
 including code that is written by oneself. It will be scrutinized harsher than other code.
 
+{% include share.html %}
