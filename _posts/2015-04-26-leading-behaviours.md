@@ -36,7 +36,7 @@ Detached decision making
 
 Anything an individual invests much time and energy into will affect that person profoundly. Being able to mold this into a one way
 relation allows the developer to stay rational when making decisions. It will make it easier to avoid
-[logical fallacies](http://www.logicalfallacies.info/) when reasoninig. It is highly beneficial to know these by heart to achieve a
+[logical fallacies](http://www.logicalfallacies.info/) when reasoning. It is highly beneficial to know these by heart to achieve a
 level of reasoning that can navigate successfully in many different contexts. Some examples of thought patterns this leads to are
 aptness to take into account all relevant factors or realizing that it is very common with trade offs when selecting implementations
 or tools or processes etc. Being open to new information to the point where instant U turns can be made the very second any
@@ -48,7 +48,7 @@ Emotional involvement
 ---------------------
 
 Various emotions and feelings are the impetus behind our actions. Looking at an entire career for a software developer perhaps the
-most potent character trait of them all is passion for our field of work. This makes deverlopers spend that extra time and thought
+most potent character trait of them all is passion for our field of work. This makes developers spend that extra time and thought
 energy to delve deeper and excel at whatever is needed to grow mentally to be able to grasp the most enigmatic concepts. Constantly
 being dissatisfied and tirelessly looking for ways to improve written and yet to be written code is the hallmark of a developer that
 will learn massive amount during a career. A good sign of maturity is where there is a complete objectiveness about all code,
