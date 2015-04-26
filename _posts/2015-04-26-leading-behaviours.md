@@ -7,9 +7,6 @@ tags: [collaboration,work]
 ---
 {% include JB/setup %}
 
-Leading Behaviours
-==================
-
 Here are some thoughts on desirable behavioural patterns for developers.
 
 At first I was thinking about writing about anti-patterns in behaviour or anti-behaviours. That would be instant irony. Kinda
