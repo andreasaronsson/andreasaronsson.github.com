@@ -18,14 +18,16 @@ features it brings can no longer be motivated by the existence of requirements.
 
 What took longer time without me realizing it what that the same applies to
 tests. Let's say I have written tests that give me a healthy dose of confidence.
-Then I can change things and be quite certain that I didn't break anything.
-During implementation a test that tests *how* code is doing something is quite
-handy in many cases. It can help you write the code faster. However, as soon as
-the functionality is verified it instead becomes an impediment. We are no longer
-free to change the code. Maintainability and ease of change is paramount. It
-makes sense to delte these tests. Only keep tests that verify a behavior outside
-in, keeping implementation details a secret from the important tests. Preferably
-this will not reduce code coverage but if it does in places it is a price we
-should be prepared to pay.
+Then I can change things and be quite certain that I didn't break anything. Now
+we can roughly divide tests into two categories: tests that test how something
+is implemented and tests that only verify behaviour. During implementation a
+test that tests how code is doing something is often quite handy. It can help
+you write the code faster. Yet as soon as the functionality is verified it
+instead becomes an impediment. We are no longer free to change the code.
+Maintainability is paramount. How easy it is to change code is very important
+for maintainability. It makes sense to delete these tests. Only keep tests that
+verify a behavior outside in, keeping implementation details a secret from the
+important tests. We would like for this not to reduce code coverage but if it
+does in places it is a price we should be prepared to pay.
 
 {% include share.html %}
