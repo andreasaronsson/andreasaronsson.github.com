@@ -56,11 +56,11 @@ layer above us.
 
 The usual pattern:
 
-```java
+{% highlight java %}
 void methodThatWillBeCalledByExecute() throws MojoExecutionException {
     // Do work and throw on error
 }
-```
+{% endhighlight %}
 
 With the above method an error will be propagated and the build will fail. All
 good but hard to test in a unit test.
@@ -71,7 +71,7 @@ to use the option
 the [option type](https://en.wikipedia.org/wiki/Option%5Ftype). Below the
 Optional from Java 8 is used:
 
-```java
+{% highlight java %}
 Optional<IOException> methodThatWillBeCalledByExecute() {
     try (file.createNewFile()) {
       // write
@@ -80,35 +80,35 @@ Optional<IOException> methodThatWillBeCalledByExecute() {
     }
     return Optional.absent();
 }
-```
+{% endhighlight %}
 
 The above method is now a little easier to write a small test for. In the calling code, in this example the `execute` method, we can now use
 
-```java
+{% highlight java %}
 public void execute() throws MojoExecutionException {
   Optional<IOException> result = methodThatWillBeCalledByExecute();
     if (result.isPresent()) {
       throw new MojoExecutionException(result.get());
     }
 }
-```
+{% endhighlight %}
 
 Note that the use of `isPresent` is considered a [code
 smell](http://mail.openjdk.java.net/pipermail/lambda-dev/2012-September/005982.html)
 and in most cases `getOrElse` is prefered. Compare:
 
-```java
+{% highlight java %}
 if (!optionVar.isPresent()) {
   return DEFAULT_CONSTANT;
 }
 return optionVar.get();
-```
+{% endhighlight %}
 
 with the more concise
 
-```java
+{% highlight java %}
 optionVar.getOrElse(DEFAULT_CONSTANT);
-```
+{% endhighlight %}
 
 In the first alternative you risk making a mistake in the conditional. There are
 also more lines which hurts readability.
