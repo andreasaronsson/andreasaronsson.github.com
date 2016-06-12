@@ -2,7 +2,7 @@
 layout: post
 title: "Developers perspective on predictability and velocity"
 description: ""
-category:programming
+category: programming
 tags: [agile,programming,work]
 ---
 {% include JB/setup %}
