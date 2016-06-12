@@ -7,13 +7,11 @@ tags: [agile,programming,work]
 ---
 {% include JB/setup %}
 
-# Development teams being agile
-
 Being agile means working towards being predictable and being fast. Repeated
 measurement are a prerequisite for progress over time. An interesting thought is
 that without measuring predictability and speed accountability remains a mirage.
 
-## Predictable
+# Predictable
 
 Optimum is to be able to tell in a short amount of time; minutes or days when a
 feature is ready. Worst case is to promise to deliver a features and then
@@ -21,23 +19,23 @@ breaking that promise. It is easy to end up in a perpetual lie where each
 promise is done in earnest. When the team then fails to deliver in time it has
 no repercussions.
 
-### Measuring predictability
+## Measuring predictability
 
 The team need a data series over comparisons between prognosis and outcome.
 
-## Fast
+# Fast
 
 A feature is done when it works in production without interruptions. Granted
 there are vast possibilities to interpret things. It is important to decide what
 is in scope and what is not. Success is when there is an agreement between the
 consumer and the producer. The negotiating skill will play an important role.
 
-### Measuring how fast
+## Measuring how fast
 
 Simple in theory if you have engaged stakeholders and all features are of equal
 size.
 
-## The road there
+# The road there
 
 One way to improve is to adopt a zero defect strategy. This means that the team
 does not tolerate any outstanding issues (reported bugs or the like). They are
