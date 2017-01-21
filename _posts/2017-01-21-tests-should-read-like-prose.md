@@ -17,7 +17,8 @@ When using [JUnit](http://junit.org/) I use the Junit4 API `assertThat` whenever
 This enables me to write
 
 ```
-assertThat(result, is(expected))```
+assertThat(result, is(expected))
+```
 
 Compare this to Junit3
 
