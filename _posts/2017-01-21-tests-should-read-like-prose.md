@@ -15,12 +15,16 @@ This is something I think of very often in my work.
 
 When using [JUnit](http://junit.org/) I use the Junit4 API `assertThat` whenever possible.
 This enables me to write
+
 ```
 assertThat(result, is(expected))```
+
 Compare this to Junit3
+
 ```
 assertEquals(expected, result)
 ```
+
 Junit5 is in development.
 It surprised me to see that they are using what I perceived as "Junit3 syntax".
 In the
