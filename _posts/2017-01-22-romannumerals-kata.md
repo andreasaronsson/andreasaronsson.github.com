@@ -14,6 +14,6 @@ Some usage of property based testing.
 Rare cases seems hard to catch with property based testing.
 Perhaps this is something I will learn to overcome when I become more proficient.
 
-Code here <https://andreasaronsson.github.io/programming/2016/06/19/bank-ocr-kata>
+Code here <https://github.com/andreasaronsson/kataromannumerals>
 
 {% include share.html %}
