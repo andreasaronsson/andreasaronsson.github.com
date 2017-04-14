@@ -6,10 +6,21 @@ tags: [recruitment]
 ---
 {% include JB/setup %}
 
-As my experiences from the IT-business and the professional life in general grow in number and volume, certain observed behavioral patterns become increasingly salient. One is concerning the recruitment of new employees. Listen in, ponder and try to draw relevant conclusions pertaining to this particular subject:
+I have done observations regarding behavioural patterns.
+One is concerning the recruitment of new employees.
 
-> The right people have the right innate abilities and character traits, not necessarily the specific knowledge and skills. For example, look for work ethic, dedication, and problem-solving ability, not javascript skills and knowledge of C#. Be less inclined to look for factors that have a high impact during the first few weeks of employment, but rather look for potential in the intermediate to long term. Because, if you are to concerned with the immediate future, you're looking for a consultant, not an employee.
+The right people have the right innate abilities and character traits.
+Not necessarily the specific knowledge and skills.
+Look for work ethic, dedication, and problem-solving ability.
+Not proficiency with a certain technology.
+Be less inclined to look for factors that have a high impact during the first few weeks of employment.
+Instead look for potential in the intermediate to long term.
+Because, if you are too concerned with the immediate future, you're looking for a consultant, not an employee.
 
-Another thing about employment strategies. They are, always, strategies because the decisions you make concerning recruitment are to intimately intertwined with your personal philosophies. After all, it is people dealing with people. Entreprenours often have a tendency to look a tad too much on the price tag and not think too long about immaterial values. What happens is that you may find yourself in a situation where you have two people doing the job worse than one person would by him/herself. You may find yourself be way too dependant on individuals being loyal in absurdum. Bottom line is: do not underestimate the complexity of maintaining a workforce.
+There can be a tendency to look a tad too much on the price tag.
+And not think too long about value created in a longer perspective.
+There may be a situation where two people are doing a worse job than than one person would.
+In the long run it is detrimental to company culture to be too dependant on loyalty.
+It is easy to underestimate the complexity of maintaining a workforce.
 
 {% include share.html %}
