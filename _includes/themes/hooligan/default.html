@@ -25,7 +25,7 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
+    <link rel="alternate" type="application/atom+xml" href="{{ site.JB.rss_path }}" title="Feed" />
     <!-- fav and touch icons -->
     <!-- Update these with your own images
       <link rel="shortcut icon" href="images/favicon.ico">
@@ -92,10 +92,10 @@
                   </a>
                 </li>
                 {% endif %}
-                {% if site.author.feedburner %}
+                {% if site.author.feed %}
                 <li>
-                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank">
-                    <span class="hidden-desktop">FeedBurner</span>
+                  <a href="{{ site.author.feed }}" class="zocial rss icon" target="_blank">
+                    <span class="hidden-desktop">Feed</span>
                   </a>
                 </li>
                 {% endif %}
