@@ -20,7 +20,7 @@ A makeshift mental map to achieve this is to try to find out what the expectatio
 Then try to satisfy and surpass them in a manner that is affordable.
 That said, how to we go on making good business decisions?
 One very common decision making task in management is to decide whether to make an investment or not.
-A customary way to go about it is to reason something like "if I don't spend any money I do not make an error, hence I am safe".
+If I don't spend any money I do not make an error, hence I am safe.
 This is driven by fear and that is seldom a Good Thing.
 Instead, it's vital that you're able to reason about your investment.
 Then draw a conclusion whether it is valid in the medium to long perspective.
