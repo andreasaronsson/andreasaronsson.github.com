@@ -6,8 +6,8 @@ tags: [xorg, keyboard]
 ---
 {% include JB/setup %}
 
-Since I normally use a swedish keyboard layout, writing braces,
-parenthesis and brackets kind of sucks. I decided to remap them to
+Since I normally use a swedish keyboard layout, writing braces, parenthesis and brackets kind of sucks.
+I decided to remap them to
 
     leftbrace to AltGr+q  
     rightbrace to AltGr+r  
@@ -17,23 +17,20 @@ parenthesis and brackets kind of sucks. I decided to remap them to
     rightparent to AltGr+s  
 
 
-The first method I tried was to run a script in ``.kde4/Autostart`` that
-runs ``xmodmap`` on a custom ``.Xmodmap`` where I captured the keypress
-event with ``xev``. This was quite easy and worked as expected in just a
-few minutes. However, once I logged out and the logged in again I
-noticed a severe delay before I could use the keyboard. After some
-thinking and googling I came to understand that the remapping of the
-keys was sort of tinkering with the keymap behing the X servers back
-which created a great deal of sync operations and used a lot of
-resources.  The next strategy was to create the layout to be available
-before the X server starts. Here is how:
+The first method I tried was to run a script in ``.kde4/Autostart`` that runs ``xmodmap`` on a custom ``.Xmodmap`` where I captured the keypress event with ``xev``.
+This was quite easy and worked as expected in just a few minutes.
+However, once I logged out and the logged in again I noticed a severe delay before I could use the keyboard.
+After some thinking and googling I came to understand that the remapping of the keys was sort of tinkering with the keymap behing the X servers back which created a great deal of sync operations and used a lot of resources.
+The next strategy was to create the layout to be available before the X server starts.
+Here is how:
 
 ``$EDITOR /usr/share/X11/xkb/symbols/se``
 
 add the following:
 
 
-    partial alphanumeric_keys
+```text
+partial alphanumeric_keys
     xkb_symbols "se_aron" {
         name[Group1]="Swedish (aron)";
         include "se(basic)"
@@ -50,12 +47,10 @@ add the following:
         include "kpdl(comma)"
         include "level3(ralt_switch)"
     };
+```
 
-
-Found the codes <a
-href="http://hack.org/mc/images/hhkb-names.png">here</a> Now the
-definition exists, but it also needs to be added to a list that the
-systemsettings in kde can select from:
+Found the codes <a href="http://hack.org/mc/images/hhkb-names.png">here</a>.
+Now the definition exists, but it also needs to be added to a list that the systemsettings in kde can select from:
 
     /usr/share/X11/xkb/rules/base.lst
 
@@ -85,8 +80,7 @@ And, under the configitem with name 'se', add a variant like so:
       </configItem>
     </variant>
 
-Now, the next time you log on to a kde session (the X server needs to
-be restarted first) you will be able to select the custom variant.
+Now, the next time you log on to a kde session (the X server needs to be restarted first) you will be able to select the custom variant.
 Update: when using fluxbox the xmodmap works just fine. .Xmodmap
 follows below. I also moved slash to AltGr+d:
 

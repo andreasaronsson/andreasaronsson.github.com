@@ -34,8 +34,6 @@ Put the simple file in `/usr/share/bash-completion` with the ones I use most.
     }
     complete -F _m2_complete -o filenames mvn
 
-And then the ``eselect bashcomp enable <filename>`` Will be
-overwritten the next time the gentoo ebuild for bashcomp is updated or
-reinstalled.
+And then the ``eselect bashcomp enable <filename>`` Will be overwritten the next time the gentoo ebuild for bashcomp is updated or reinstalled.
 
 {% include share.html %}

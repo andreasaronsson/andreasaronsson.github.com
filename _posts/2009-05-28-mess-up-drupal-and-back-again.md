@@ -6,24 +6,18 @@ tags: Gentoo
 ---
 {% include JB/setup %}
 
-Sometime when I was updating drupal from 6.10 to 6.11 I thought I was
-going to be clever and update as soon at the core module was available
-upstream. Not to wait until it reached portage. I downloaded it and
-placed it in ``$WEBROOT/sites/all/modules`` and updated to that
-version of the core module.
+Sometime when I was updating drupal from 6.10 to 6.11 I thought I was going to be clever and update as soon at the core module was available upstream.
+Not to wait until it reached portage.
+I downloaded it and placed it in ``$WEBROOT/sites/all/modules`` and updated to that version of the core module.
 
-But thinking about it today I found it excessive and stupid to be
-doing manual updates =).  Better let webapp-config handle it again as
-before. So how do I go about that? Just updating with webapp-config
-did not suffice since the running installation still refers to the one
-I manually downloaded and the update script didn't help either.
+But thinking about it today I found it excessive and stupid to be doing manual updates =).
+Better let webapp-config handle it again as before.
+So how do I go about that?
+Just updating with webapp-config did not suffice since the running installation still refers to the one I manually downloaded and the update script didn't help either.
 
-After some searching in the database I found alot of references to my
-``$WEBROOT/sites/all/modules/drupal-6.10`` directory. Some of the
-references resided in the cache_* tables as well.  Well, I thought
-that truncating the cache tables couldn't hurt so I did that and then
-wrote a small routine to replace the references to not include the
-``$WEBROOT/sites/all/modules/drupal-6.10``:
+After some searching in the database I found alot of references to my ``$WEBROOT/sites/all/modules/drupal-6.10`` directory.
+Some of the references resided in the cache_* tables as well.
+Well, I thought that truncating the cache tables couldn't hurt so I did that and then wrote a small routine to replace the references to not include the ``$WEBROOT/sites/all/modules/drupal-6.10``:
 
 {% highlight php linenos %}
 
@@ -84,14 +78,16 @@ function exec_sql($query, $safe) {
 ?>
 {% endhighlight %} 
 
-Still no cigar tough. The admin interface tells me that there are
-updates available. Using the database update script (update.php) puts
-me back to where I started. So off I go to examine that script too. I
-notice that it's using the POST variable to set some values that has
-to do with module versions. Intriguing. Next thing to try is to clear
-the browser cache, run the php script again and voila´. Now it's
-looking good. I had to run the update.php again and it didn't mess
-stuff up anymore either.  NOTE: To make the script 'bite', set "$safe
-= false" at the top of it. Use at own risk ofcos =).
+Still no cigar tough.
+The admin interface tells me that there are updates available.
+Using the database update script (update.php) puts me back to where I started.
+So off I go to examine that script too.
+I notice that it's using the POST variable to set some values that has to do with module versions.
+Intriguing.
+Next thing to try is to clear the browser cache, run the php script again and voila´.
+Now it's looking good.
+I had to run the update.php again and it didn't mess stuff up anymore either.
+NOTE: To make the script 'bite', set "$safe = false" at the top of it.
+Use at own risk ofcos =).
 
 {% include share.html %}

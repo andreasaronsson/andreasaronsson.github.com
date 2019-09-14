@@ -22,8 +22,7 @@ Soon I switched to manual download directly from the eclipse website.
 I installed it in my own home directory.
 I was pretty stumped to see my system responding to me issuing "./eclipse" with... nothing.
 All mighty Google allowed me to educate myself enough to understand that this was a common error when you try to run the 32-bit version on a 64-bit system.
-As I am running Gentoo on amd64; [this 64 bit version](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk-x86_64.tar.gz)
-works alot better.
+As I am running Gentoo on amd64; [this 64 bit version](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk-x86_64.tar.gz) works alot better.
 Now I am having loads of fun rewriting a program I last worked with sometime in 2003. Time flies...
 
 {% include share.html %}

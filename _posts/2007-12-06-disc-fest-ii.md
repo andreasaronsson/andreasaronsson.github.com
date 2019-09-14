@@ -24,16 +24,15 @@ Final setup:
 *   Box two (server) - two wd raptor GD and two IDE discs, both RAID1
 *   Box three (fileserver and offsite backup) - two SATA discs in a RAID1
 
-I didn't have any major breakdowns or hiccups but still some interesting stuff happened. In both servers I made heavy use of ``rsync -a --exclude xxx source dest`` from the running system to the new disc setup.
+I didn't have any major breakdowns or hiccups but still some interesting stuff happened.
+In both servers I made heavy use of ``rsync -a --exclude xxx source dest`` from the running system to the new disc setup.
 However, the first procedure moving all the stuff off of the file server was hampered by one of the discs in the logical volume.
 It decided to die in the process.
 I haven't thought much of it thus far but for some reason they always seem to break when you touch them.
-They can go on spinning happily for weeks on end
-but if you reboot or look at them too closely they break.
+They can go on spinning happily for weeks on end but if you reboot or look at them too closely they break.
 So I lost some stuff.
 Shit happens and I probably could have avoided it had I only been a bit less lazy.
-Yet again I draw the conclusion that arduousness more or less always pays off in the
-long run.
+Yet again I draw the conclusion that arduousness more or less always pays off in the long run.
 
 The second server I amused myself with syncing the running system (with as much services turned off as possible ofcos) to the new RAID array and the unmounting some of the partitions and remounting the mountpoints with the newly synced filesystem.
 When I later rebooted and proceeded to incorporate the first disc in the array, I discover that the disc seems to be in use.
