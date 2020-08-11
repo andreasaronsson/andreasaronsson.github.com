@@ -29,7 +29,7 @@ author :
 #
 production_url : http://andreasaronsson.github.io
 
-gems: ["jekyll-sitemap"]
+plugins: ["jekyll-sitemap"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
